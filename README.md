@@ -62,6 +62,9 @@ We used a publicly available dataset of malicious and benign URLs for training.
 - Dataset source: [Kaggle - Malicious URLs Dataset](https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset)
 - Note: Due to licensing and size constraints, the dataset is not included in this repo. Please download it manually and place it in the `dataset/` folder before training or running the model.
 
+## Screenshot
+![Screenshot](assets/screenshot.png)
+
 ## 🖥️ How to Run
 
 ### 🔧 Prerequisites
