@@ -73,7 +73,7 @@ We used a publicly available dataset of malicious and benign URLs for training.
 ### ⚙️ Setup
 
 1. Clone the repository:
-   git clone https://github.com/thara-ttt/malicious-url-detector.git
+   git clone https://github.com/thara-ttt/Malicious-url-detector.git
    cd malicious-url-detector
 
 2.  Create a virtual environment and activate it:
