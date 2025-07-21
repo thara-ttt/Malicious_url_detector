@@ -27,7 +27,7 @@ Built with:
 ---
 
 ## 📁 Project Structure
-
+```bash
 malicious-url-detector/
 ├── app.py # Flask backend API
 ├── feature_extraction.py # Feature extraction functions
@@ -39,7 +39,7 @@ malicious-url-detector/
 │ └── urls.csv
 ├── .gitignore
 └── README.md
-
+ ```
 
 ---
 
@@ -73,19 +73,25 @@ We used a publicly available dataset of malicious and benign URLs for training.
 ### ⚙️ Setup
 
 1. Clone the repository:
+   ```bash
    git clone https://github.com/thara-ttt/Malicious-url-detector.git
    cd malicious-url-detector
-
+   ```
 2.  Create a virtual environment and activate it:
+   ```bash
     python -m venv venv
     venv\Scripts\activate   # On Windows
     source venv/bin/activate  # On macOS/Linux
-
+   ```
 3.  Install dependencies:
+   ```bash
     pip install -r requirements.txt
-
+  ```
 4.  Run the Flask backend:
+   ```bash
     python app.py
-
+  ```
 5.  In a new terminal, run the Streamlit frontend:
+   ```bash
     streamlit run streamlit_app.py
+  ```
